@@ -1,0 +1,12 @@
+2021-08-24/17:20:04		Data 1 extraction started
+2021-08-24/17:21:34		Data 1 extraction completed
+2021-08-24/17:22:48		Data 1 extraction started
+2021-08-24/17:24:06		Data 1 extraction completed
+2021-08-24/17:24:19		Data 2 extraction started
+2021-08-24/17:25:09		Data 2 extraction completed
+2021-08-24/17:25:26		Data 3 extraction started
+2021-08-24/17:27:50		Data 3 extraction completed
+2021-08-24/17:54:22		successfully removed unwanted columns
+2021-08-24/17:54:27		successfully saved the processed file
+2021-08-24/17:58:37		successfully removed unwanted columns
+2021-08-24/17:58:41		successfully saved the processed file
