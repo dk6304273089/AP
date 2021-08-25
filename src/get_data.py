@@ -6,6 +6,7 @@ import pandas as pd
 
 import argparse
 import cassandra
+
 from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
 from cassandra.query import dict_factory
@@ -17,7 +18,7 @@ def get_data(config_path):
     config = read_params(config_path)
     # print(config)
     data_path = config["load_data"]["data"]
-    df = pd.read_csv(data_path, sep=",", encoding='utf-8')
+    df = pd.read_csv(data_path, sep=",")
     return df
 def log(file_object, log_message):
         now = datetime.now()
@@ -74,14 +75,11 @@ class Data_extraction:
             log(self.file,"Data 3 extraction completed")
 
             df=pd.concat([df1,df2,df3],axis=1)
-            df.to_csv("data/aps.csv",index=False)
+            df.to_csv("data/raw/aps.csv",index=False)
 
 
         except Exception as e:
             print(e)
-
-
-
 
 
 if __name__=="__main__":

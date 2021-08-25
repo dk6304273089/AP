@@ -14,4 +14,9 @@ stages:
     - data/raw/aps.csv
     outs:
     - data/processed/aps.csv
-  
+  finalling_data:
+    cmd: python src/f_s.py --config=params.yaml
+    deps:
+    - data/processed/aps.csv
+    outs:
+    - data/final/aps.csv

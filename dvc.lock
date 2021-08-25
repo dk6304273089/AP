@@ -1,0 +1,41 @@
+schema: '2.0'
+stages:
+  extract_data:
+    cmd: python src/get_data.py --config=params.yaml
+    deps:
+    - path: databases/secure-connect-h1.zip
+      md5: ff0e730d6bfc597247589e8a01b5c791
+      size: 12279
+    - path: databases/secure-connect-h22.zip
+      md5: 3964cb40457488eec90d57526b9cc89e
+      size: 12249
+    - path: databases/secure-connect-h33.zip
+      md5: e829528bfe2c39a873dcfd431a41c773
+      size: 12261
+    - path: src/get_data.py
+      md5: 8f24edb5d9ac1f2fa5b44cf94f08341c
+      size: 3579
+    outs:
+    - path: data/raw/aps.csv
+      md5: facae1a70d9c70bc6d386d7552890bfd
+      size: 46717246
+  processing_data:
+    cmd: python src/load_data.py --config=params.yaml
+    deps:
+    - path: data/raw/aps.csv
+      md5: facae1a70d9c70bc6d386d7552890bfd
+      size: 46717246
+    outs:
+    - path: data/processed/aps.csv
+      md5: daa9ae1fe9f50c56b22d4b2e4447d64c
+      size: 24967387
+  finalling_data:
+    cmd: python src/f_s.py --config=params.yaml
+    deps:
+    - path: data/processed/aps.csv
+      md5: daa9ae1fe9f50c56b22d4b2e4447d64c
+      size: 24967387
+    outs:
+    - path: data/final/aps.csv
+      md5: 3f984a84b54986f4bd406c8d73cea9fb
+      size: 24310304

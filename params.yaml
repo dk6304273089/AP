@@ -11,3 +11,6 @@ load_data:
 
 process_data:
   data: data/processed/aps.csv
+
+final_data:
+  data: data/final/aps.csv
