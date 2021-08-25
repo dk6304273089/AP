@@ -20,3 +20,11 @@ stages:
     - data/processed/aps.csv
     outs:
     - data/final/aps.csv
+  training_data:
+    cmd: python src/train_and_evalute.py --config=params.yaml
+    deps:
+    - data/final/aps.csv
+    outs:
+    - saved_models/model.joblib
+    - report/params.json
+    - report/scores.json

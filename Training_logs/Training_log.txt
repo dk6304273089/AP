@@ -1,19 +1,53 @@
 
-2021-08-25/13:36:36		Data 1 extraction started
-2021-08-25/13:37:43		Data 1 extraction completed
-2021-08-25/13:37:51		Data 2 extraction started
-2021-08-25/13:39:13		Data 2 extraction completed
-2021-08-25/13:39:28		Data 3 extraction started
-2021-08-25/13:42:04		Data 3 extraction completed
-2021-08-25/13:45:07		Data 1 extraction started
-2021-08-25/13:46:15		Data 1 extraction completed
-2021-08-25/13:46:24		Data 2 extraction started
-2021-08-25/13:47:22		Data 2 extraction completed
-2021-08-25/13:47:46		Data 3 extraction started
-2021-08-25/13:50:21		Data 3 extraction completed
-2021-08-25/13:50:57		successfully removed unwanted columns
-2021-08-25/13:51:02		successfully saved the processed file
-2021-08-25/13:51:32		successfully replaced None values with missing values
-2021-08-25/13:51:37		handled columns missing value with more than 15%
-2021-08-25/13:51:42		handled missing values with less than 15%
-2021-08-25/13:51:45		finally data is ready for model training
+2021-08-25/20:11:53		successfully applied smote
+2021-08-25/20:15:09		successfully applied smote
+2021-08-25/20:17:16		successfully applied smote
+2021-08-25/20:19:08		successfully applied smote
+2021-08-25/20:20:26		Data 1 extraction started
+2021-08-25/20:21:49		Data 1 extraction completed
+2021-08-25/20:22:00		Data 2 extraction started
+2021-08-25/20:23:06		Data 2 extraction completed
+2021-08-25/20:23:21		Data 3 extraction started
+2021-08-25/20:25:56		Data 3 extraction completed
+2021-08-25/21:13:19		Data 1 extraction started
+2021-08-25/21:14:48		Data 1 extraction completed
+2021-08-25/21:15:00		Data 2 extraction started
+2021-08-25/21:16:04		Data 2 extraction completed
+2021-08-25/21:16:17		Data 3 extraction started
+2021-08-25/21:18:56		Data 3 extraction completed
+2021-08-25/21:19:50		successfully removed unwanted columns
+2021-08-25/21:19:54		successfully saved the processed file
+2021-08-25/21:24:34		successfully replaced None values with missing values
+2021-08-25/21:24:51		handled columns missing value with more than 15%
+2021-08-25/21:24:56		handled missing values with less than 15%
+2021-08-25/21:25:00		finally data is ready for model training
+2021-08-25/21:50:16		successfully replaced None values with missing values
+2021-08-25/21:50:23		handled columns missing value with more than 15%
+2021-08-25/21:50:28		handled missing values with less than 15%
+2021-08-25/21:50:31		finally data is ready for model training
+2021-08-25/22:59:01		Data 1 extraction started
+2021-08-25/23:00:44		Data 1 extraction completed
+2021-08-25/23:00:52		Data 2 extraction started
+2021-08-25/23:02:32		Data 2 extraction completed
+2021-08-25/23:02:49		Data 3 extraction started
+2021-08-25/23:05:44		Data 3 extraction completed
+2021-08-25/23:06:55		successfully removed unwanted columns
+2021-08-25/23:06:58		successfully saved the processed file
+2021-08-25/23:08:14		successfully replaced None values with missing values
+2021-08-25/23:08:17		handled columns missing value with more than 15%
+2021-08-25/23:08:20		handled missing values with less than 15%
+2021-08-25/23:08:22		finally data is ready for model training
+2021-08-25/23:11:48		successfully applied smote
+2021-08-25/23:18:27		Data 1 extraction started
+2021-08-25/23:19:51		Data 1 extraction completed
+2021-08-25/23:20:00		Data 2 extraction started
+2021-08-25/23:21:02		Data 2 extraction completed
+2021-08-25/23:21:19		Data 3 extraction started
+2021-08-25/23:23:58		Data 3 extraction completed
+2021-08-25/23:24:11		successfully removed unwanted columns
+2021-08-25/23:24:14		successfully saved the processed file
+2021-08-25/23:24:21		successfully replaced None values with missing values
+2021-08-25/23:24:25		handled columns missing value with more than 15%
+2021-08-25/23:24:29		handled missing values with less than 15%
+2021-08-25/23:24:31		finally data is ready for model training
+2021-08-25/23:24:47		successfully applied smote
